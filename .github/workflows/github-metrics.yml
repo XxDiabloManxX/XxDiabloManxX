@@ -16,4 +16,6 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          config_presets: "@lunar-red"
+          config_timezone: Europe/Madrid
           token: ${{ secrets.METRICS_TOKEN }}
